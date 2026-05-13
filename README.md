@@ -3,7 +3,7 @@
 ## 📊 Visitor Count ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=man-mu)
 
 ## 🚀 About Me
-- 🏫 **CQUPT** | 通信与信息工程专业
+- 🏫 **CQUPT** | 通信与信息类
 - 💻 **专注领域**: 后端开发 (Backend Development)
 - 🌐 **我的博客**: [manmu的空中花园 - Blog](http://blog-manmu.top/)
 - 📝 **CSDN主页**: [漫霂 - CSDN博客](https://blog.csdn.net/2503_93079769?spm=1000.2115.3001.5343)
