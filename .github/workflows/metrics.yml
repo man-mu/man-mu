@@ -1,0 +1,48 @@
+name: Metrics
+on:
+  # 每天午夜运行一次
+  schedule: [{cron: "0 0 * * *"}]
+  # 允许你手动点击按钮运行
+  workflow_dispatch:
+  # 当你修改 README.md 时运行
+  push: {branches: ["main", "master"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 📊 生成 GitHub Stats 卡片
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: man-mu
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Shanghai
+
+      - name: 🏆 生成常用语言卡片
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: man-mu
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 8
+
+      - name: 🔥 生成 Streak 连续打卡卡片
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: man-mu
+          base: ""
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
