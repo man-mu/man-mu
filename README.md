@@ -3,7 +3,7 @@
 ## 📊 Visitor Count ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=man-mu)
 
 ## 🚀 About Me
-- 🏫 **CQUPT (重庆邮电大学)** | 通信与信息工程专业
+- 🏫 **CQUPT** | 通信与信息工程专业
 - 💻 **专注领域**: 后端开发 (Backend Development)
 - 🌐 **我的博客**: [manmu的空中花园 - Blog](http://blog-manmu.top/)
 - 📝 **CSDN主页**: [漫霂 - CSDN博客](https://blog.csdn.net/2503_93079769?spm=1000.2115.3001.5343)
@@ -31,8 +31,8 @@
 
 ## 📈 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=man-mu&show_icons=true&theme=radical" alt="man-mu's GitHub stats" />
+<img src="./github-metrics.svg" alt="GitHub Stats" width="45%" /> <img src="./github-metrics-languages.svg" alt="Top Languages" width="45%" />
 
-## 🏆 Top Languages
+## 🔥 GitHub Streak
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=man-mu&layout=compact&theme=radical" alt="Top Langs" />
+<img src="https://streak-stats.demolab.com/?user=man-mu&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
